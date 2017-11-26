@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a794fc2c8698e9d79f1d5efd6c11d24",
+    "content-hash": "e839049d5f8f2a8f3570872ad4a80803",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -36,6 +36,63 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "crada/php-apidoc",
+            "version": "dev-master",
+            "target-dir": "Crada/Apidoc",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calinrada/php-apidoc.git",
+                "reference": "b1f63c3be2202118687d689006ecb3719f5cad45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calinrada/php-apidoc/zipball/b1f63c3be2202118687d689006ecb3719f5cad45",
+                "reference": "b1f63c3be2202118687d689006ecb3719f5cad45",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Crada": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Calin Rada",
+                    "email": "rada.calin@gmail.com"
+                },
+                {
+                    "name": "Borja Santos-Diez",
+                    "email": "borja@santosdiez.es"
+                },
+                {
+                    "name": "Kevin Saliou",
+                    "email": "kevin@saliou.name"
+                }
+            ],
+            "description": "Generate documentation for php API based application. No dependency. No framework required.",
+            "homepage": "https://github.com/calinrada/php-apidoc",
+            "keywords": [
+                "api",
+                "documentation",
+                "generator",
+                "php"
+            ],
+            "time": "2017-10-18T09:04:30+00:00"
         },
         {
             "name": "http-interop/http-factory",
@@ -2044,7 +2101,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "vrana/notorm": 20,
-        "tuupola/slim-basic-auth": 5
+        "tuupola/slim-basic-auth": 5,
+        "crada/php-apidoc": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
